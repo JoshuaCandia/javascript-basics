@@ -52,17 +52,3 @@ const spiderman = new Persona(
 );
 const ironman = new Persona("Tony Stark", "Ironman", "Soy el hombre de hierro");
 const capitanAmerica = new Persona("Steve Rogers", "Capitan America", "");
-
-/* spiderman.quienSoy();
-spiderman.miFrase(); */
-/* spiderman.setComidaFavorita = "el pie de cereza de la tia May";
-console.log(spiderman.getComidaFavorita); */
-
-//Persona._conteo = 2;
-
-console.log(Persona.conteo);
-Persona.mensaje();
-
-Persona.propiedadExterna = "Hola Mundo";
-
-console.log(Persona.propiedadExterna);
